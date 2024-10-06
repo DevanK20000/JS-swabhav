@@ -1,0 +1,42 @@
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.completed-task {
+  background-color: #5b6269; /* Dark background */
+  color: #fff; /* White text */
+}
+
+.completed-task span {
+  text-decoration: line-through;
+  font-style: italic;
+}
